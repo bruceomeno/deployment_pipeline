@@ -19,4 +19,4 @@ jobs:
           distribution: 'corretto'
 
       - name: Unit Tests
-        run: gradle -B test --build.gradle.kts
+        run: ./gradlew -B test --build-file build.gradle.kts
