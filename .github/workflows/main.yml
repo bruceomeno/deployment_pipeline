@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'corretto'
+          java-version: '17'
 
       - name: Unit Tests
         run: ./gradlew -B test --build-file build.gradle.kts
