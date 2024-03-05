@@ -20,4 +20,4 @@ jobs:
           java-version: '17'
 
       - name: Unit Tests
-        run: ./gradlew -B test --build-file build.gradle.kts
+        run: ./gradlew test --console=plain --build-file build.gradle.kts
