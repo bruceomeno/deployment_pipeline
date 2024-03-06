@@ -2,7 +2,8 @@ FROM openjdk:17-jdk
 
 WORKDIR /app
 
-COPY target/deployment-pipeline-1.0.0.jar /app/deployment-pipeline.jar
+# Copy the built JAR file from the Gradle output directory to the Docker image
+COPY build/libs/deployment-pipeline-1.0.0.jar /app/deployment-pipeline.jar
 
 EXPOSE 8080
 
