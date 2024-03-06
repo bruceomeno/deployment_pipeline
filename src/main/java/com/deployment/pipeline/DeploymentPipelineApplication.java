@@ -1,4 +1,4 @@
-package deploymentpipeline.deploymentpipeline;
+package com.deployment.pipeline;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class DeploymentPipelineApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DeploymentPipelineApplication.class, args);
 	}
-
 }
